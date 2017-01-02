@@ -32,7 +32,7 @@ gulp.task('shopifywatch', ['build'], function () {
     };
 
     return gulp.src('./build/+(assets|layout|config|snippets|templates|locales)/**')
-        .pipe(gulpShopify('c5d913665ac8423fcbcf1fa43cbb38c5', 'eac7e40d2784b9fe539c94b542f19d8b', 'vavavoo-2.myshopify.com', '95356166', options));
+        .pipe(gulpShopify('61c521d2c7e2325d6ca8159ecc2fd8bb', '7a57ed114d86ec124ffd9e8e59b52af7', 'react-shopify.myshopify.com', '130416513', options));
 });
 
 gulp.task('crisper-theme', function() {

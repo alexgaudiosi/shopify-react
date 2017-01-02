@@ -20,6 +20,15 @@ module.exports = {
                 exclude: /node_modules/,
                 test: /\.liquid/,
                 loader: 'file-loader?name=layout/[name].[ext]'
+            },
+            { 
+                test: /\.jsx?$/,         // Match both .js and .jsx files
+                exclude: /node_modules/, 
+                loader: "babel", 
+                query:
+                  {
+                    presets:['react']
+                  }
             }
         ]
     },

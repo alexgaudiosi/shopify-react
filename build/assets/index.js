@@ -126,7 +126,7 @@ webpackJsonp([0],{
 	                        'p',
 	                        { className: 'home-greeting__heading' },
 	                        this.state.message,
-	                        ', Joseph.'
+	                        ', Alex.'
 	                    ),
 	                    _react2.default.createElement(
 	                        'p',

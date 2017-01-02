@@ -23,6 +23,15 @@ module.exports = {
                 exclude: /node_modules/,
                 test: /\.html/,
                 loader: 'file-loader?name=[name].[ext]'
+            },
+            { 
+                test: /\.jsx?$/,         // Match both .js and .jsx files
+                exclude: /node_modules/, 
+                loader: "babel", 
+                query:
+                  {
+                    presets:['react']
+                  }
             }
         ]
     },

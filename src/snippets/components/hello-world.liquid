@@ -1,12 +1,12 @@
 <script type="text/javascript">
-    /* everything is relative to crisper-tmp/** folder, so this is in crisper-tmp/snippets/ 
-     * because we flatten all liquid snippet and templates files to only include 1-level parent, shopify requires no folders in snippets / templates
-     */
+    // everything is relative to crisper-tmp/** folder, so this is in crisper-tmp/snippets/ 
+    // because we flatten all liquid snippet and templates files to only include 1-level parent, shopify requires no folders in snippets / templates
+    
     import React, { Component } from 'react';
     import ReactDOM from 'react-dom';
 
     import HomeGreeting from '../../components/home_greeting';
-
+    
 
     class App2 extends Component {
         constructor(props) {
@@ -16,7 +16,7 @@
         }
 
         render() {
-            return ( < HomeGreeting page = {
+            return ( <HomeGreeting page = {
                     this.props.page
                 }
                 />
